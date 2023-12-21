@@ -30,6 +30,7 @@ function Footer() {
               justifyContent: "space-between",
               flexWrap: "wrap",
               mt: 3,
+              margin: "auto",
               width: "100%",
             }}
             // style={{ backgroundColor: "#346470" }}
@@ -45,8 +46,9 @@ function Footer() {
               <List
                 sx={{
                   display: "flex",
+                  flexDirection: "column",
                   justifyContent: "flex-start",
-                  alignItems: "center",
+                  // alignItems: "center",
                 }}
               >
                 <ListItem sx={{ paddingLeft: 1 }}>
